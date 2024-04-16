@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a:visited{
+            color: green;
+        }
+
+    a:hover{
+        color: blue;
+    }
+
+    a:active{
+        color: yellow;
+    }
+    a::after{
+        content: '(link)';
+        color: rgba(0, 0, 0, 0.219);
+        text-decoration: none;
+        font-weight: normal;
+    }
+    .especial{
+        background-color: aqua;
+    }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank">gighub</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" class="especial">youtube</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank">instagram</a></li>
+    </ul>
+</body>
+</html>
